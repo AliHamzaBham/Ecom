@@ -1,0 +1,214 @@
+
+.navbar {
+  padding: 16px;
+}
+
+.Home-About {
+  background-color: #06032E;
+  padding: 40px 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+}
+
+.left {
+  /* background-color: blue; */
+  padding: 40px;
+  margin-top: 20px;
+}
+
+
+.left h5 {
+  font-weight: 400;
+}
+
+.left h2 {
+  letter-spacing: 2px;
+}
+
+.left p {
+  padding: 40px 0px;
+  font-size: 18px;
+}
+
+.About-us-btn {
+  height: 50px;
+  width: 150px;
+  outline: none;
+  border: none;
+  border-radius: 40px;
+  font-size: 18px;
+  transition: all ease 0.3s;
+}
+.About-us-btn:hover {
+  background-color: #06032E;
+  border: 1px solid white;
+  color: white;
+}
+
+.right {
+  margin-top: 40px;
+  overflow: hidden;
+  border-radius: 10%;
+}
+
+.right img {
+  height: 100%;
+  width: 100%;
+  transition: all ease 0.2s;
+  border-radius: 10%;
+}
+
+.right:hover img {
+  transform: scale(1.1);
+}
+
+
+@media screen and  (max-width: 1024px) {
+  .Home-About {
+    padding: 40px 30px;
+  }
+  .left {
+    padding: 20px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and  (max-width: 830px) {
+  .Home-About {
+    grid-template-columns: 1fr;
+  }
+}
+
+.CTA {
+  height: 300px;
+  text-align: center;
+  background-image: url("./assets/CTA-banner.jpg");
+  background-size: cover;
+  background-position: left top;
+  color: white;
+}
+
+.CTA h1 {
+  line-height: 200px;
+  margin-bottom: -20px;
+  font-weight: bolder;
+}
+
+.CTA button:hover  {
+  border: none;
+  background-color: white;
+  color: #06032E;
+  transform: scale(1.1);
+  transition: all ease 0.2s;
+} 
+
+
+/* About Page */
+
+.about-hero {
+  height: 300px;
+  background-image: url("../src/assets/CTA-banner.jpg");
+  background-size: cover;
+}
+
+.about-hero h1 {
+  padding-top: 120px;
+  color :white;
+}
+
+.contact-hero {
+  height: 300px;
+  background-image: url("../src/assets/CTA-banner.jpg");
+  background-size: cover;
+}
+
+.contact-hero h1 {
+  padding-top: 120px;
+  color :white;
+}
+
+/* About Page */
+
+/* Shop Page */
+
+.shop-hero {
+  height: 300px;
+  background-color: yellow;
+  background-image: url("../src/assets/CTA-banner.jpg");
+  background-size: cover;
+}
+
+.shop-hero h1 {
+  padding-top: 120px;
+  color :white;
+}
+
+
+.all-products-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  padding: 0px 120px;
+  grid-gap:40px;
+  margin-bottom: 40px;
+}
+
+.Product-card {
+  margin-top: 60px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px;
+}
+
+.product-text-container {
+  padding: 10px;
+}
+
+.product-img-container {
+  height: 220px;
+  width: 100%;
+  overflow: hidden;
+
+}
+
+.product-img-container img{
+  height: 100%;
+  width: 100%;
+  transition: all ease 0.4s;
+  cursor: pointer;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.product-img-container:hover img {
+  transform: scale(1.1);
+}
+
+
+@media screen and  (max-width: 1024px)  {
+  .all-products-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and  (max-width: 768px)  {
+  .all-products-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Shop Page */
+
+
+/* Cart Page */
+
+.quantity-input {
+  width: 50px;
+  margin-left: -30px;
+}
+.quantity-input:focus {
+  outline: none;
+}
+
+/* Cart Page */
